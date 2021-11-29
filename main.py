@@ -53,7 +53,7 @@ while True:
                 for i,j in zip(ass_list,b_list):
                     if i==j:
                         H+=1
-                        B+=1
+                        #B+=1
                     elif i in b_list:
                         B+=1
                     else:
